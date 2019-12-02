@@ -9,8 +9,7 @@ This sample code and flow is made available under Open Source - MIT No Attributi
 > Quick setup below, but you should follow the [expanded version](https://aws.amazon.com/blogs/messaging-and-targeting/create-an-sms-chatbox-with-amazon-pinpoint-and-lex/). 
 #### Step 3: Permissions/IAM
 ```JSON
-      {
-        "document": {
+{
           "Version": "2012-10-17",
           "Statement": [
             {
@@ -47,10 +46,7 @@ This sample code and flow is made available under Open Source - MIT No Attributi
               ]
             }
           ]
-        },
-        "name": "PinpointLexFunctionRole",
-        "type": "managed"
-      }
+        }
 ```
 #### Step 4: Lambda
 ```javascript
